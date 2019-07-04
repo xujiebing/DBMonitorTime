@@ -1,0 +1,6 @@
+framework module DBMonitorTime {
+  umbrella header "DBMonitorTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

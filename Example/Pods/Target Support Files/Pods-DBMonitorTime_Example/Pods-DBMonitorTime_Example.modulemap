@@ -1,0 +1,6 @@
+framework module Pods_DBMonitorTime_Example {
+  umbrella header "Pods-DBMonitorTime_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

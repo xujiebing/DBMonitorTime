@@ -7,12 +7,15 @@
 //
 
 #import "DBAppDelegate.h"
+#import <DBMonitorTime/DBMonitorTime.h>
 
 @implementation DBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //启动监控
+    [[DBMonitorTime sharedTimer] startMonitoringTimer];
     return YES;
 }
 

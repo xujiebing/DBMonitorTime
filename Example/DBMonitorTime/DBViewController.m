@@ -7,6 +7,7 @@
 //
 
 #import "DBViewController.h"
+#import <DBMonitorTime/DBMonitorTime.h>
 
 @interface DBViewController ()
 
@@ -14,16 +15,25 @@
 
 @implementation DBViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self testAAAAAAAAAAA];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)testAAAAAAAAAAA{
+    [self testBBBBBBBBBB];
+}
+
+- (void)testBBBBBBBBBB{
+    while (true) {
+        sleep(3);
+        break;
+    }
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    //打印日志
+    [[DBMonitorTime sharedTimer] logAllCallStack];
 }
 
 @end

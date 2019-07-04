@@ -1,0 +1,16 @@
+PODS:
+  - DBMonitorTime (0.1.0)
+
+DEPENDENCIES:
+  - DBMonitorTime (from `../`)
+
+EXTERNAL SOURCES:
+  DBMonitorTime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBMonitorTime: 0d1ee0a456d0239d366231926d078259eb286bb5
+
+PODFILE CHECKSUM: 9237cab3eed2a4086377427ce43407d5619b9f4a
+
+COCOAPODS: 1.7.0
